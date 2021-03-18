@@ -58,7 +58,7 @@ const ProductCard = ({ product, onIncrement, onDecrement, cartItem }) => {
                   onClick={() => onIncrement(cartItem)}
                   style={{ "margin-top": "auto" }}
                 >
-                  Add to Cart
+                  Add to Cart  {cartItem.id}
                   <CartIcon />
                 </Button>
               </Col>
